@@ -1,8 +1,13 @@
-print('Uzupelnij aby sprawdzic do ktorego wojewodztwa nalezy wskazane miasto ')
-
-print('Wybierz z listy: Warszawa, Otwock, Radom, Wroclaw, Legnica, Grajewo, Bia$
+print()
+print()
 
 wskazane_miasto = 'Wroclaw'
+
+print('Uzupelnij aby sprawdzic do ktorego wojewodztwa nalezy wskazane miasto ')
+print()
+print('Wybierz z listy: Warszawa, Otwock, Radom, Wroclaw, Legnica, Grajewo, Bialystok, Kolno')
+
+#wskazane_miasto = 'Wroclaw'
 #miasto = 'Wroclaw'
 #print('wskazane_miasto', miasto)
 
@@ -13,28 +18,25 @@ Mazowieckie = [
 ]
 
 Dolnoslaskie = [
-        'Wroclaw'
-        'Trzebnica'
+        'Wroclaw',
+        'Trzebnica',
         'Legnica'
 ]
 
 Podkarpackie = [
-        'Grajewo'
-        'Bialystok'
+        'Grajewo',
+        'Bialystok',
         'Kolno'
 ]
 
 print()
 
-
-
-elif wskazane_miasto in Mazowieckie
+if wskazane_miasto in Mazowieckie:
         print('To miasto lezy w wojewodztwie mazowieckim')
 
-elif wskazane_miasto in Dolnoslaskie
+if wskazane_miasto in Dolnoslaskie:
         print('To miasto lezy w wojewodztwie dolnoslaskim')
-
-elif wskazane_miasto in Podkarpackie
+elif wskazane_miasto in Podkarpackie:
         print('To miasto lezy w wojewodztwie podkarpackim')
 
 else:
